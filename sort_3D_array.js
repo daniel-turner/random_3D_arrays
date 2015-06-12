@@ -1,4 +1,4 @@
-function sort_3D_array(rows,columns) {
+function sort_2D_array(rows,columns) {
 
   //generate random array
   var array = [];
@@ -16,7 +16,7 @@ function sort_3D_array(rows,columns) {
     array.push(newRow);
   }
 
-  //sort 2d
+  //sort 1d
 
   var newArray = [];
 
@@ -35,7 +35,7 @@ function sort_3D_array(rows,columns) {
 
 
 
-  //sort 3d
+  //sort 2d
 
   var out = [];
 
@@ -59,4 +59,4 @@ function sort_3D_array(rows,columns) {
   return out;
 }
 
-sort_3D_array(7,8);
+//sort_2D_array(7,8);
